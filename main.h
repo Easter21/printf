@@ -20,7 +20,7 @@ typedef struct format
 	int (*f)();
 } convert_match;
 
-int print_pointe(va_list val);
+int print_pointer(va_list val);
 int print_hex_aux(unsigned long int num);
 int print_HEX_aux(unsigned int num);
 int print_exclusive_string(va_list val);
